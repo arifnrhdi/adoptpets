@@ -1,0 +1,52 @@
+* {
+  font-family: "Afacad Flux";
+}
+
+/* Navbar */
+.nav-item {
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+
+}
+
+.dropdown-item{
+    font-size: 20px;
+}
+
+/* Main Menu */
+.hero-section {
+  padding: 50px 0;
+}
+.hero-text {
+  color: #2c3e50;
+}
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero-text p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.supported-by {
+  margin-top: 30px;
+}
+.supported-by img {
+  max-width: 100px;
+  margin: 0 10px;
+}
+.pet-images img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .supported-by {
+    margin-bottom: 50px;
+  }
+}
