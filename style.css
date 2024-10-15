@@ -1,19 +1,29 @@
 * {
-  font-family: "Afacad Flux";
+  font-family:"Afacad Flux";
 }
 
 /* Navbar */
 .nav-item {
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 30px;
   margin-right: 20px;
-  font-size: 20px;
-
 }
 
-.dropdown-item{
-    font-size: 20px;
+.dropdown-item {
+  font-size: 25px;
+}
+
+.signin,
+.signup {
+  background-color: transparent;
+  border: none;
+}
+
+.signin:hover,
+.signup:hover {
+  border: none;
+  transform: translateY(-3px);
 }
 
 /* Main Menu */
@@ -39,14 +49,30 @@
   max-width: 100px;
   margin: 0 10px;
 }
-.pet-images img {
+.pet-images img.desktop {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.pet-images img.mobile {
+  display: none;
   width: 100%;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
+  .signin {
+    margin-bottom: 15px;
+  }
   .supported-by {
     margin-bottom: 50px;
+  }
+  .pet-images img.desktop {
+    display: none;
+  }
+  .pet-images img.mobile {
+    display: block;
   }
 }
