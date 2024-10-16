@@ -2,12 +2,12 @@
 .nav-item {
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 1.5rem;
   margin-right: 20px;
 }
 
 .dropdown-item {
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 .signin,
