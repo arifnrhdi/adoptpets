@@ -6,6 +6,7 @@ import { useSelector } from "react-redux";
 import FormPetsProfile from "../utils/FormPetsProfile";
 import PetsCardTemplateUser from "../utils/PetsCardTemplateUser";
 import axios from "axios";
+import dayjs from "dayjs";
 
 function UserDetail() {
   const navigate = useNavigate();
@@ -78,7 +79,7 @@ function UserDetail() {
                 <strong>Email:</strong> {user?.email || userData.email}
               </p>
               <p className="text-gray-600 mb-3 text-lg">
-                <strong>Member sejak:</strong> {user?.createdAt || userData.birthDate}
+                <strong>Member sejak:</strong> {dayjs(user?.createdAt).format("DD MMMM YYYY") || userData.birthDate}
               </p>
               <p className="text-gray-600 mb-3 text-lg">
                 <strong>Pets Added:</strong> {totalPets}
