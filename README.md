@@ -30,7 +30,7 @@
 - Selanjutnya menjalankan program frontend dengan cara membuka command line baru dan jalankan <code>cd frontend</code> lalu <code>npm run dev</code>
 
 ## Contributor
-- <a href="https://github.com/arifnrhdi">@Komoriff</a>
+- <a href="https://github.com/arifnrhdi">@arifnrhdi</a>
 - <a href="https://github.com/Xnaizer">@Xnaizer</a>
 - <a href="https://github.com/wildevsum">@wildevsum</a>
 - <a href="https://github.com/tsusunt">@tsusunt</a>
